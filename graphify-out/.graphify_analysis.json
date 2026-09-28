@@ -1,0 +1,286 @@
+{
+  "communities": {
+    "0": [
+      "components_probabilitytable",
+      "components_probabilitytable_aspercentage",
+      "components_probabilitytable_probabilitytable",
+      "components_probabilitytable_probabilitytableprops",
+      "components_seasonheader",
+      "components_seasonheader_seasonheader",
+      "components_seasonheader_seasonheaderprops",
+      "components_standingstable",
+      "components_standingstable_standingstable",
+      "components_standingstable_standingstableprops",
+      "domain_season_snapshot",
+      "domain_season_snapshot_scoreline",
+      "domain_season_snapshot_season",
+      "domain_season_snapshot_seasonsnapshot",
+      "domain_season_snapshot_team",
+      "engine_types",
+      "engine_types_rankedstanding",
+      "engine_types_teamsimulationresult",
+      "hooks_usescenariosimulation",
+      "hooks_usescenariosimulation_scenariosimulationstate",
+      "hooks_usescenariosimulation_test",
+      "hooks_usescenariosimulation_test_snapshot",
+      "hooks_usescenariosimulation_usescenariosimulation",
+      "pages_simulatorpage",
+      "pages_simulatorpage_loadstate",
+      "pages_simulatorpage_simulatorpage",
+      "pages_simulatorpage_test",
+      "pages_simulatorpage_test_mockedgetseasonsnapshot",
+      "pages_simulatorpage_test_snapshot"
+    ],
+    "1": [
+      "components_admin_adminsigninform",
+      "components_admin_adminsigninform_adminsigninform",
+      "components_admin_adminsigninform_adminsigninform_onsubmit",
+      "components_admin_providersettingsform",
+      "components_admin_providersettingsform_providersettingsform",
+      "components_admin_providersettingsform_providersettingsform_onsubmit",
+      "pages_adminpage",
+      "pages_adminpage_adminpage",
+      "pages_adminpage_adminpage_logout",
+      "pages_adminpage_adminpage_syncnow",
+      "pages_adminpage_adminstate",
+      "services_supabase_auth",
+      "services_supabase_auth_getadminsession",
+      "services_supabase_auth_signinadmin",
+      "services_supabase_auth_signoutadmin",
+      "services_supabase_client",
+      "services_supabase_client_getsupabaseclient",
+      "services_supabase_client_readpublicenvironment",
+      "services_supabase_client_resetsupabaseclientfortest",
+      "services_supabase_provider_settings",
+      "services_supabase_provider_settings_getprovidersettings",
+      "services_supabase_provider_settings_invoke",
+      "services_supabase_provider_settings_mapsettings",
+      "services_supabase_provider_settings_providersettings",
+      "services_supabase_provider_settings_savepandascoretoken",
+      "services_supabase_sync",
+      "services_supabase_sync_runpandascoresync",
+      "services_supabase_sync_syncresult"
+    ],
+    "2": [
+      "domain_season_snapshot_match",
+      "domain_season_snapshot_seasonrules",
+      "domain_season_snapshot_tiebreakerrule",
+      "engine_standings",
+      "engine_standings_calculatestandings",
+      "engine_standings_isvalidfinishedmatch",
+      "engine_standings_test",
+      "engine_standings_test_match",
+      "engine_standings_test_team",
+      "engine_tiebreaker",
+      "engine_tiebreaker_comparemetric",
+      "engine_tiebreaker_metric",
+      "engine_tiebreaker_metricfor",
+      "engine_tiebreaker_partitionbymetric",
+      "engine_tiebreaker_rankstandings",
+      "engine_tiebreaker_resolvegroup",
+      "engine_tiebreaker_test",
+      "engine_tiebreaker_test_headtoheadmatch",
+      "engine_tiebreaker_test_rules",
+      "engine_tiebreaker_test_standings",
+      "engine_tiebreaker_unresolvedtieerror",
+      "engine_tiebreaker_unresolvedtieerror_constructor",
+      "engine_types_teamstanding"
+    ],
+    "3": [
+      "components_remainingmatches",
+      "components_remainingmatches_remainingmatches",
+      "components_remainingmatches_remainingmatchesprops",
+      "components_remainingmatches_samescoreline",
+      "components_remainingmatches_scorelinelabel",
+      "engine_random",
+      "engine_random_createrandom",
+      "engine_simulator",
+      "engine_simulator_legalscorelines",
+      "engine_simulator_remainingmatches",
+      "engine_simulator_samescoreline",
+      "engine_simulator_simulate",
+      "engine_simulator_test",
+      "engine_simulator_test_remainingmatch",
+      "engine_simulator_test_season",
+      "engine_simulator_test_teams",
+      "engine_types_simulationinput"
+    ],
+    "4": [
+      "domain_season_snapshot_default_season_rules",
+      "domain_season_snapshot_matchstatus",
+      "services_season_api",
+      "services_season_api_getseasonsnapshot",
+      "services_season_api_seasonapierror",
+      "services_season_api_seasonapierror_constructor",
+      "services_supabase_season_snapshot",
+      "services_supabase_season_snapshot_emptyactiveseasonerror",
+      "services_supabase_season_snapshot_emptyactiveseasonerror_constructor",
+      "services_supabase_season_snapshot_loadactiveseasonsnapshot",
+      "services_supabase_season_snapshot_tomatch",
+      "services_supabase_season_snapshot_torules",
+      "types_database",
+      "types_database_databasematchrow",
+      "types_database_databaseseasonrow",
+      "types_database_databaseteamrow"
+    ],
+    "5": [
+      "app",
+      "app_app",
+      "app_test",
+      "main",
+      "main_rootelement"
+    ],
+    "6": [
+      "test_setup"
+    ],
+    "7": [
+      "vite_env_d"
+    ]
+  },
+  "cohesion": {
+    "0": 0.14532019704433496,
+    "1": 0.17195767195767195,
+    "2": 0.15810276679841898,
+    "3": 0.19852941176470587,
+    "4": 0.2,
+    "5": 0.6,
+    "6": 1.0,
+    "7": 1.0
+  },
+  "gods": [
+    {
+      "id": "services_supabase_client_getsupabaseclient",
+      "label": "getSupabaseClient()",
+      "degree": 12
+    },
+    {
+      "id": "domain_season_snapshot_match",
+      "label": "Match",
+      "degree": 10
+    },
+    {
+      "id": "engine_simulator_simulate",
+      "label": "simulate()",
+      "degree": 10
+    },
+    {
+      "id": "engine_standings_calculatestandings",
+      "label": "calculateStandings()",
+      "degree": 9
+    },
+    {
+      "id": "domain_season_snapshot_team",
+      "label": "Team",
+      "degree": 8
+    },
+    {
+      "id": "pages_adminpage_adminpage",
+      "label": "AdminPage()",
+      "degree": 8
+    },
+    {
+      "id": "domain_season_snapshot_seasonsnapshot",
+      "label": "SeasonSnapshot",
+      "degree": 7
+    },
+    {
+      "id": "engine_tiebreaker_resolvegroup",
+      "label": "resolveGroup()",
+      "degree": 7
+    },
+    {
+      "id": "engine_tiebreaker_rankstandings",
+      "label": "rankStandings()",
+      "degree": 7
+    },
+    {
+      "id": "pages_simulatorpage_simulatorpage",
+      "label": "SimulatorPage()",
+      "degree": 7
+    }
+  ],
+  "surprises": [
+    {
+      "source": "onSubmit()",
+      "target": "signInAdmin()",
+      "source_files": [
+        "components/admin/AdminSignInForm.tsx",
+        "services/supabase/auth.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; peripheral node `onSubmit()` unexpectedly reaches hub `signInAdmin()`"
+    },
+    {
+      "source": "onSubmit()",
+      "target": "savePandaScoreToken()",
+      "source_files": [
+        "components/admin/ProviderSettingsForm.tsx",
+        "services/supabase/provider-settings.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; peripheral node `onSubmit()` unexpectedly reaches hub `savePandaScoreToken()`"
+    },
+    {
+      "source": "useScenarioSimulation()",
+      "target": "simulate()",
+      "source_files": [
+        "hooks/useScenarioSimulation.ts",
+        "engine/simulator.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "SimulatorPage()",
+      "target": "calculateStandings()",
+      "source_files": [
+        "pages/SimulatorPage.tsx",
+        "engine/standings.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "SimulatorPage()",
+      "target": "rankStandings()",
+      "source_files": [
+        "pages/SimulatorPage.tsx",
+        "engine/tiebreaker.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `getSupabaseClient()` connect `Community 1` to `Community 4`?",
+      "why": "High betweenness centrality (0.151) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `getSeasonSnapshot()` connect `Community 4` to `Community 0`, `Community 1`?",
+      "why": "High betweenness centrality (0.044) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Match` connect `Community 2` to `Community 0`, `Community 3`, `Community 4`?",
+      "why": "High betweenness centrality (0.034) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `ProbabilityTableProps`, `RemainingMatchesProps`, `SeasonHeaderProps` to the rest of the system?",
+      "why": "19 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.14532019704433496 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

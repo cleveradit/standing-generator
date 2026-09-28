@@ -1,0 +1,10 @@
+node_modules/
+dist/
+coverage/
+.env.local
+.env.local.admin
+supabase/.temp/
+supabase/functions/.env
+playwright-report/
+test-results/
+*.tsbuildinfo

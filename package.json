@@ -1,0 +1,51 @@
+{
+  "name": "standing-generator",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0 <23.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "dev:local": "node scripts/run-local-inspection.mjs",
+    "build": "tsc -b && vite build",
+    "test": "vitest",
+    "lint": "eslint .",
+    "supabase:start": "supabase start",
+    "supabase:stop": "supabase stop",
+    "supabase:status": "supabase status",
+    "supabase:reset": "supabase db reset --local",
+    "admin:create-local": "node scripts/create-local-admin.mjs",
+    "scheduler:trigger-local": "node scripts/trigger-local-scheduled-sync.mjs",
+    "test:local:e2e": "playwright test",
+    "test:local:acceptance": "node scripts/test-local-stack.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.116.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^5.1.4",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@playwright/test": "^1.63.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "jsdom": "^27.2.0",
+    "supabase": "^2.117.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.4",
+    "vitest": "^5.0.1"
+  }
+}
